@@ -533,7 +533,7 @@ namespace KVChecker_
         }
 
         // Token: 0x04000047 RID: 71
-        private static string AppDataDir = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\DirectKVs_Checker\\";
+        private static string AppDataDir = AppDomain.CurrentDomain.BaseDirectory + "\\Keys\\";
 
         // Token: 0x04000048 RID: 72
         private int banned;
